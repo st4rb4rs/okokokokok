@@ -3,6 +3,8 @@ import tkinter.font as tkFont
 import webbrowser
 import os
 
+parentDirectory = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+
 window = tk.Tk()
 window.geometry("640x480")
 window.resizable(False, False)
@@ -180,51 +182,51 @@ link1 = tk.Button(master=window,text="HEFOUNDYOU :(", command=ccmd.link1cmd)
 
 link2 = tk.Button(master=window,text="ARBORS KILLED YOU", command=ccmd.link2cmd)
 
-photo12 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\entity2.png",width=480,height=240)
+photo12 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'entity2.PNG'),width=480,height=240)
 
 Label12 = tk.Label(window,image=photo12)
 
-photo11 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\dead.png",width=480,height=240)
+photo11 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'dead.PNG'),width=480,height=240)
 
 Label11 = tk.Label(window,image=photo11)
 
-photo10 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\attic.png",width=320,height=240)
+photo10 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'attic.PNG'),width=320,height=240)
 
 Label10 = tk.Label(window,image=photo10)
 
-photo9 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\closedeye.png")
+photo9 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'closedeye.PNG'))
 
 Label9 = tk.Label(master=eye,image=photo9)
 
-photo8 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\openeye.png")
+photo8 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'openeye.PNG'))
 
 Label8 = tk.Label(master=eye,image=photo8)
 
-photo7 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\doorstairs.png",width=320,height=240)
+photo7 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'doorstairs.PNG'),width=320,height=240)
 
 Label7 = tk.Label(window,image=photo7)
 
-photo6 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\entity.png")
+photo6 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'entity.PNG'))
 
 Label6 = tk.Label(window,image=photo6)
 
-photo5 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\house_outside.png")
+photo5 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'house_outside.PNG'))
 
 Label5 = tk.Label(window,image=photo5)
 
-photo4 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\void_death.png")
+photo4 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'void_death.PNG'))
 
 Label4 = tk.Label(window,image=photo4)
 
-photo3 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\wc2.png")
+photo3 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'wc2.PNG'))
 
 Label3 = tk.Label(window,image=photo3)
 
-photo2 = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\thirdeye.png")
+photo2 = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'thirdeye.PNG'))
 
 Label2 = tk.Label(window,image=photo2)
 
-photo = tk.PhotoImage(file = r"C:\Users\ycp.cadet\Downloads\Programs\okokokokok1.1\imgs\spooky.png",width=320,height=240)
+photo = tk.PhotoImage(file = os.path.join(parentDirectory, 'okokokokok1.1','imgs', 'spooky.PNG'),width=320,height=240)
 
 Label = tk.Label(window,image=photo)
 
