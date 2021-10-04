@@ -5,6 +5,8 @@ welcome to my very first game, more of a proof of concept than a passion project
 based on the weirdcore aesthetic
 hope u enjoy ? 
 
-`<https://github.com/st4rb4rs/okokokokok>`_.
+(: 2 0 2 1 :)
+
+`<https://github.com/st4rb4rs/okokokokok>`_
 
 ---------------
