@@ -1,10 +1,10 @@
-Sample Module Repository
+OKOKOKOKOK
 ========================
 
-This simple project is an example repo for Python projects.
+welcome to my very first game, more of a proof of concept than a passion project, but im proud nonetheless (if it works hopefully)
+based on the weirdcore aesthetic
+hope u enjoy ? 
 
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
+`<https://github.com/st4rb4rs/okokokokok>`_.
 
 ---------------
-
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
